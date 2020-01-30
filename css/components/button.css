@@ -1,0 +1,19 @@
+.btn-green {
+	background: green;
+	color: white;
+	padding: .5rem 1.5rem;
+	border-radius: 2px;
+	border: 2px solid green;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn-green:hover {
+	cursor: pointer;
+	color: green;
+	background: transparent;
+	border: 2px solid green;
+	transition: all .5s ease-in-out;
+}
+

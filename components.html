@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Components demo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+      <h1 class="text-center">Components Demo</h1>
+
+      <!-- TODO: live-code your components -->
+      <div class="container">
+        <h2>1. A container</h2>
+        <p>Le Wagon is a 9-week full-stack coding bootcamp based out of 30 cities in 20 countries. We bring coding skills to creative people who aim to create their own startup, or add a technical know-how to their skillset.</p>
+        
+        <h2>2. A button</h2>
+        <button class="btn-green">apply</button>
+
+        <h2>3. Avatar</h2>
+        <img src="images/kevin.jpg" alt="kevin" class="avatar">
+
+        <h2>4. Card</h2>
+        <div class="card-category">
+          <h2>A Category</h2>
+        </div>
+
+        <div class="card-product">
+          <img src="/images/plant.jpg" alt="" class="card-product-image">
+          <div class="card-product-details">
+            <h2>title</h2>
+            <p>subtitle</p>
+          </div>
+        </div>
+
+
+        <div class="card-trip">
+          <img src="/images/athens.jpg" alt="" class="card-trip-image">
+          <div class="card-trip-footer">
+            <div class="card-trip-details">
+              <h2>Athens</h2>
+              <p>Greece</p>
+            </div>
+            <div class="card-trip-price">
+              <h2>200Kr</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
+
+.card-trip(img.card-trip-image+div.card-trip-footer(.card-trip-details(h2+p)+.card-trip-price(h2)))
